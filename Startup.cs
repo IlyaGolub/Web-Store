@@ -30,7 +30,7 @@ namespace Web_Store
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseStaticFiles();
             app.UseRouting();
 
             
