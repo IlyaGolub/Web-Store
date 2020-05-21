@@ -10,7 +10,11 @@ namespace Web_Store.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return Content("First controller action result");
+        }
+        public IActionResult AnotherAction()
+        {
+            return Content("Test new method");
         }
     }
 }
